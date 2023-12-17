@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My awesome portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Services</a>
+                            <a href="#work">Work</a>
+                            <a href="#blog">Blog</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary">Contact</button>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/man.png" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Abdul Muneeb Qureshi</h6>
+                        <h1>I’m a innovative <span>Developer</span></h1>
+                        <p>MERN stack expert crafting user-friendly web solutions through innovative coding and seamless collaboration. 
+                            Dedicated to pushing the boundaries of web development with cutting-edge expertise.</p>
+                        <div>
+                            <button class="btn btn-secondary" onclick="window.open('./assets/resume.pdf')" >DOWNLOAD CV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/man-2.png" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! i’m Abdul Muneeb Qureshi.</h3>
+                    <p>With over five years of hands-on expertise in the MERN (MongoDB, Express.js, React, Node
+                        .js) stack, I am a seasoned developer with a proven track record of delivering 
+                        robust and scalable web applications. My proficiency extends from crafting efficient
+                         server-side logic in Node.js to creating dynamic and responsive user interfaces 
+                         using React. Leveraging my extensive experience, I excel in database management
+                          with MongoDB and implementing seamless communication between client and server
+                           with Express.js. I am passionate about staying abreast of the latest industry trends and technologies,
+                         ensuring that my solutions align with best practices and deliver optimal user experiences.</p>
+                    <div class="social">
+                        <a href="https://www.github.com"><img src="./images/github.PNG" alt=""></a>
+                        <a href="https://www.facebook.com"><img src="./images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com"> <img src="./images/twitter.png" alt=""></a>
+                        <a href="https://www.linkdin.com"> <img src="./images/linkdin.PNG" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            
+            <div class="container">
+                <h1 class="section-heading"><span>Our </span>Services</h1>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/mern.PNG" alt="" width="110" height="107">
+                        <h2>MERN Stack Development</h2>
+                        <p>Expertise in end-to-end MERN stack development, crafting scalable and robust web applications tailored to unique business requirements.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/api.PNG" alt="" width="150" height="107">
+                        <h2>RESTful API Development</h2>
+                        <p>Building efficient and flexible RESTful APIs using Node.js and Express.js for seamless communication between front-end and back-end systems.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/dbms.PNG" alt="" width="110" height="107">
+                        <h2>Database Design and Optimization</h2>
+                        <p>Specializing in MongoDB, designing efficient and scalable database structures to manage data securely and ensure optimal performance.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/socket.PNG" alt="" width="110" height="107">
+                        <h2>Real-Time Applications with Socket.io</h2>
+                        <p>Integrating Socket.io to develop interactive and dynamic features, enabling real-time communication for applications like live chat and collaborative editing.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/dev-oop.PNG" alt="" width="110" height="107">
+                        <h2>DevOps and Deployment</h2>
+                        <p>End-to-end solutions including deployment strategies and continuous integration, setting up scalable infrastructure on platforms like AWS or Heroku.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/consult.PNG" alt="" width="110" height="107">
+                        <h2>Customized Solutions and Consultation</h2>
+                        <p>Personalized consultations to identify specific project needs, delivering tailored solutions aligned with business objectives for long-term success.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>I Am Available For Freelancer.</h1>
+            <button class="btn btn-primary" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Client</h1>
+                <br/>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/ptcl.PNG" alt="">
+                        <p>"As the lead MERN stack developer, I played a key role in developing a robust client management system for PTCL. The system streamlined their workflow, providing real-time data insights and improving overall
+                              efficiency. Overcoming challenges in data synchronization, we delivered
+                             a scalable and user-friendly solution that received positive feedback from stakeholders."</p>
+                        <span>PTCL</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/ecommerce.PNG" alt="">
+                        <p>"Collaborating with E-Commerce Solutions Co., I contributed to the development of 
+                            a feature-rich e-commerce platform. Implementing MERN stack best practices, 
+                            we achieved seamless integration with third-party APIs for payment processing and
+                             inventory management. The result was
+                             an optimized and responsive online store that significantly increased user engagement and sales."</p>
+                        <span>E-Commerce Solutions Co.</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Works</h1>
+                <br/>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Project</span>
+                            <a href="#">Real-Time Document Editor</a>
+                        </div>
+                        <img src="./images/tool.PNG" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Project</span>
+                            <a href="#">MERN E-Commerce Marketplace</a>
+                        </div>
+                        <img src="./images/ecommerce2.PNG" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Project</span>
+                            <a href="#">Financial Analytics Dashboard</a>
+                        </div>
+                        <img src="./images/finance.PNG" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Project</span>
+                            <a href="#">Offline-First Task Manager (PWA)</a>
+                        </div>
+                        <img src="./images/pawa.PNG" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Project</span>
+                            <a href="#">Blockchain Smart Contracts Manager</a>
+                        </div>
+                        <img src="./images/smartContract.PNG" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Project</span>
+                            <a href="#">AI Chatbot for Customer Support</a>
+                        </div>
+                        <img src="./images/chatboot.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Blog</h1>
+                <br/>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/mongodb.PNG" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Optimizing MongoDB Queries for High Performance</h1>
+                            </a>
+                            <span>March 16, 2020</span>
+                            <p>Delve into effective strategies for optimizing MongoDB queries to enhance database performance. Explore indexing, query structure,
+                             and other best practices to ensure your MERN stack applications run smoothly.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/hook.PNG" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Mastering React Hooks for State Management</h1>
+                            </a>
+                            <span>May 12, 2019</span>
+                            <p>Uncover the power of React Hooks for state management in your applications. This blog provides in-depth explanations
+                                 and practical examples of using hooks
+                                 like useState and useEffect to create efficient and maintainable React components.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/nodeapi.PNG" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Building Scalable APIs with Express.js and Node.js</h1>
+                            </a>
+                            <span>July 12, 2020</span>
+                            <p> Learn the art of crafting scalable APIs using Express.js 
+                                and Node.js. This blog covers the principles of 
+                                RESTful design, middleware usage,
+                                 and tips for maintaining clean and extensible 
+                                 code in your MERN stack backend applications.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <br/>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-2.svg" alt="">
+                        <h1>Call Us On</h1>
+                        <h6>+92 3874928743</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/msg.svg" alt="">
+                        <h1>Email Us At</h1>
+                        <h6>abdulmuneeb@uet.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/map.svg" alt="">
+                        <h1>Visit Office</h1>
+                        <h6>UET,Lahore</h6>
+                    </div>
+
+                </div>
+
+                <!-- <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form> -->
+            </div>
+        </section>
+        <footer>
+            <div class="footer-socials">
+                <a href="https://www.facebook.com"><img src="./images/facebook.PNG" alt="" width="25" height="25"></a>
+                <a href="https://twitter.com"> <img src="./images/twitter.png" alt="" width="25" height="25"></a>
+                <a href="https://www.linkdin.com"> <img src="./images/linkdin.PNG" alt="" width="25" height="25"></a>
+                <a href="https://www.github.com"> <img src="./images/github.PNG" alt="" width="25" height="25"></a>
+            </div>
+            <div class="copyright">
+                Copyright 2020 © AbdulMuneeb
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
